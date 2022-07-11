@@ -116,25 +116,7 @@ public class S09_AddItemsToShoppingCart {
     }
 }
 
-/*
-        for (int i = 0; i <3 ; i++) {
 
 
 
-            if (shoppingCartPage.Rows().get(i).getText().contains("HTC") || shoppingCartPage.Rows().get(i).getText().contains("Shoes"))
-            {
-                Assert.assertTrue(true);
-            } else { continue; }
 
-        }
-
-        */
-
-
-        /*
-        softAssert.assertEquals(shoppingCartPage.Rows().size(),3);
-        softAssert.assertTrue(shoppingCartPage.Rows().get(1).getText().contains("HTC"));
-        softAssert.assertTrue(shoppingCartPage.Rows().get(2).getText().contains("Shoes"));
-        softAssert.assertAll();
-
-         */

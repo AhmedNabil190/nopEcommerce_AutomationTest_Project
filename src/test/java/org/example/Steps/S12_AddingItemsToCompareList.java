@@ -55,14 +55,4 @@ public class S12_AddingItemsToCompareList {
 
 }
 
-/*
-for (int i = 0; i < 4; i++) {
 
-            if (compareListPage.CompareRows().get(i).getText().contains("HTC ") || compareListPage.CompareRows().get(i).getText().contains("MacBook")) {
-                Assert.assertTrue(true);
-            } else {
-                continue;
-            }
-
-        }
- */

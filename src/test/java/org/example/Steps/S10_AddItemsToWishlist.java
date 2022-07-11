@@ -60,10 +60,4 @@ public class S10_AddItemsToWishlist {
 
     }
 }
-/*
-        assertt.assertEquals(wishListPage.Rowss().size(), 2);
-        assertt.assertTrue(wishListPage.Rowss().get(1).getText().contains("MacBook"));
-        assertt.assertAll();
-
- */
 

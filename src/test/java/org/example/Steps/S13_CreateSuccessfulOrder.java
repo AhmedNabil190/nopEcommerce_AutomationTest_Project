@@ -46,12 +46,6 @@ public class S13_CreateSuccessfulOrder {
 
     @And("Fill remaining mandatory fields")
     public void FillMissingData() throws InterruptedException {
-/*
-        if (Hooks.driver.findElement(By.name("billing_address_id")).isDisplayed()) {
-            this.pressCont1();
-
-        }
-        */
 
             shoppingCartPage.fillFields(2, "cairo", "shrouk", "11873", "014841654989");
             this.pressCont1();
@@ -117,18 +111,7 @@ public class S13_CreateSuccessfulOrder {
 
     }
 
-    /*
-    for (int i = 0; i < 4; i++) {
 
-            if (shoppingCartPage.Rows().get(i).getText().contains("HTC") || shoppingCartPage.Rows().get(i).getText().contains("Shoes") || shoppingCartPage.Rows().get(i).getText().contains("MacBook")) {
-                Assert.assertTrue(true);
-            } else {
-                continue;
-            }
-
-        }
-
-     */
 
     @And("press confirm")
     public void ClickOnConfirm() throws InterruptedException {

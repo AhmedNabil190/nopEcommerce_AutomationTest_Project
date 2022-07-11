@@ -66,7 +66,7 @@ public class S02_Login {
         assertt.assertTrue
                 (ErrorText.getText().contains("Login was unsuccessful. Please correct the errors and try again."));
 
-        //String ColorValue = Color.fromString("rgba(228, 67, 75, 1)").asHex();
+
         assertt.assertFalse(ErrorText.getCssValue("color").contains("#e4434b"));
 
 

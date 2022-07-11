@@ -61,28 +61,5 @@ public class S14_FollowUs {
     }
 }
 
-  /*
-            String CurrentWindow = Hooks.driver.getWindowHandle();
-            for (String window : Hooks.driver.getWindowHandles()) {
-                String Tilte = Hooks.driver.switchTo().window(window).getTitle();
-                if (Tilte.contains("NopCommerce - Home")) {
-                    Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("https://www.facebook.com/nopCommerce"));
-                    Hooks.driver.close();
 
-                }
-
- */
-                /*
-                else if (Tilte.contains("Twitter"))
-                {
-                    Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("https://twitter.com/nopCommerce"));
-                    Hooks.driver.close();
-
-                } else if (Tilte.contains("YouTube"))
-                {
-                    Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("https://www.youtube.com/user/nopCommerce"));
-                    Hooks.driver.close();
-
-                }
-
-                 */
+                
