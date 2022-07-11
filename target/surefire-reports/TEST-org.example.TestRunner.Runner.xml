@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.TestRunner.Runner" time="225.631" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="D:\Udacity\FinalNopEcommerceProject\demonopcommerce\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Udacity\FinalNopEcommerceProject\demonopcommerce\target\test-classes;D:\Udacity\FinalNopEcommerceProject\demonopcommerce\target\classes;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ahmed Nabeel\AppData\Local\Temp\surefire8255324387867449543\surefirebooter6793516436300035517.jar C:\Users\Ahmed Nabeel\AppData\Local\Temp\surefire8255324387867449543 2022-07-11T15-15-43_062-jvmRun1 surefire7287829388137839825tmp surefire_01593830815844672525tmp"/>
+    <property name="surefire.test.class.path" value="D:\Udacity\FinalNopEcommerceProject\demonopcommerce\target\test-classes;D:\Udacity\FinalNopEcommerceProject\demonopcommerce\target\classes;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\Ahmed Nabeel\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ahmed Nabeel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="basedir" value="D:\Udacity\FinalNopEcommerceProject\demonopcommerce"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ahmed Nabeel\AppData\Local\Temp\surefire8255324387867449543\surefirebooter6793516436300035517.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="user.name" value="Ahmed Nabeel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ahmed Nabeel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AHMEDN~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="user.dir" value="D:\Udacity\FinalNopEcommerceProject\demonopcommerce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\apache-maven-3.8.6\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Ahmed Nabeel\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;user Registered. (Happy Scenario)&quot;, &quot;user try to Register Successfully&quot;](1)" classname="org.example.TestRunner.Runner" time="7.544">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:15:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:15:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Login in (Happy Scenario)&quot;, &quot;Login Functionality&quot;](2)" classname="org.example.TestRunner.Runner" time="5.727">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52055
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:15:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:15:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Login in (Negative Scenario)&quot;, &quot;Login Functionality&quot;](3)" classname="org.example.TestRunner.Runner" time="5.346">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55066
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:15:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:15:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Happy Scenario of reseting Password&quot;, &quot;User can reset Password successfullly&quot;](4)" classname="org.example.TestRunner.Runner" time="4.496">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61556
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (product Name)&quot;, &quot;Check that user can search for any proudct&quot;](5)" classname="org.example.TestRunner.Runner" time="5.536">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54632
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (product Name)&quot;, &quot;Check that user can search for any proudct&quot;](6)" classname="org.example.TestRunner.Runner" time="6.942">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (product Name)&quot;, &quot;Check that user can search for any proudct&quot;](7)" classname="org.example.TestRunner.Runner" time="5.363">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49189
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (Sku)&quot;, &quot;Check that user can search for any proudct&quot;](8)" classname="org.example.TestRunner.Runner" time="7.21">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (Sku)&quot;, &quot;Check that user can search for any proudct&quot;](9)" classname="org.example.TestRunner.Runner" time="7.048">
+    <system-out><![CDATA[
+@smoke
+Scenario: user Registered. (Happy Scenario) &amp#27;[90m# src/main/resources/Features/F01_Register.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to register page&amp#27;[0m      &amp#27;[90m# org.example.Steps.S01_Register.RegLink()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser fill personal data detailes&amp#27;[0m     &amp#27;[90m# org.example.Steps.S01_Register.fillpersonalData()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mfill company details&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S01_Register.companydetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mfill password fields&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S01_Register.passswords()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick register button&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S01_Register.regb()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser Registerd Successfully&amp#27;[0m          &amp#27;[90m# org.example.Steps.S01_Register.CheckREgisterResult()&amp#27;[0m
+
+@smoke
+Scenario: user Login in (Happy Scenario)        &amp#27;[90m# src/main/resources/Features/F02_Login.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+
+@smoke
+Scenario: user Login in (Negative Scenario)       &amp#27;[90m# src/main/resources/Features/F02_Login.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page Negative&amp#27;[0m      &amp#27;[90m# org.example.Steps.S02_Login.NavToLoginVegative()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtypee "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123122&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPassNeg(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button Negative&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.clicklogButtonNeg()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can not login&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S02_Login.UserCannotLoggedIn()&amp#27;[0m
+
+@smoke
+Scenario: Happy Scenario of reseting Password &amp#27;[90m# src/main/resources/Features/F03_ResetPassord.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Navigate to Login page&amp#27;[0m           &amp#27;[90m# org.example.Steps.S03_ResetPassword.gotologinPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Type Email&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S03_ResetPassword.UserTypeEmail()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser Clik on forget password&amp#27;[0m            &amp#27;[90m# org.example.Steps.S03_ResetPassword.CLickOnForgetPass()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill Email Information&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S03_ResetPassword.fillmail()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Recover&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S03_ResetPassword.ClickRecover()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mintstruction of rest sent successfuly&amp#27;[0m  &amp#27;[90m# org.example.Steps.S03_ResetPassword.CheckResultOfRecover()&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (product Name) &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m     &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mbook&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m            &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appears &amp#27;[0m&amp#27;[32m&amp#27;[1mbook&amp#27;[0m           &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearch(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (product Name) &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m     &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m          &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appears &amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m         &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearch(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (product Name) &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m     &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mnike&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m            &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appears &amp#27;[0m&amp#27;[32m&amp#27;[1mnike&amp#27;[0m           &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearch(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (Sku)      &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mSCI_FAITH&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m   &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m              &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appearss &amp#27;[0m&amp#27;[32m&amp#27;[1mSCI_FAITH&amp#27;[0m &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearchSKu(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (Sku)      &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58960
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for An (Sku)&quot;, &quot;Check that user can search for any proudct&quot;](10)" classname="org.example.TestRunner.Runner" time="7.126">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Can Change Currency successfully&quot;, &quot;Change Currency&quot;](11)" classname="org.example.TestRunner.Runner" time="5.622">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57587
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user can select categories with subcategories&quot;, &quot;user can select any category successfully&quot;](12)" classname="org.example.TestRunner.Runner" time="15.604">
+    <system-out><![CDATA[https://demo.nopcommerce.com/camera-photo
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64143
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:16:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:16:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user can filter shoesCategory With Color&quot;, &quot;Filtering categories with color&quot;](13)" classname="org.example.TestRunner.Runner" time="10.489">
+    <system-out><![CDATA[Color
+Grey
+Red
+Blue
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:17:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:17:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Select Any tag successfully&quot;, &quot;user can selectAny tags in Category&quot;](14)" classname="org.example.TestRunner.Runner" time="10.927">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56818
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:17:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:17:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Select Any tag successfully&quot;, &quot;user can selectAny tags in Category&quot;](15)" classname="org.example.TestRunner.Runner" time="10.961">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56651
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:17:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:17:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Select Any tag successfully&quot;, &quot;user can selectAny tags in Category&quot;](16)" classname="org.example.TestRunner.Runner" time="10.868">
+    <system-out><![CDATA[32mClick on Login button&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mAPPLE_CAM&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m   &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m              &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appearss &amp#27;[0m&amp#27;[32m&amp#27;[1mAPPLE_CAM&amp#27;[0m &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearchSKu(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Search for An (Sku)      &amp#27;[90m# src/main/resources/Features/F04_SearchBar.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser types on &amp#27;[0m&amp#27;[32m&amp#27;[1mSF_PRO_11&amp#27;[0m&amp#27;[32m in Search Bar&amp#27;[0m   &amp#27;[90m# org.example.Steps.S04_SearchBar.TypeinSearchfield(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Click on Search button&amp#27;[0m              &amp#27;[90m# org.example.Steps.S04_SearchBar.PressSearchButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result must be appearss &amp#27;[0m&amp#27;[32m&amp#27;[1mSF_PRO_11&amp#27;[0m &amp#27;[90m# org.example.Steps.S04_SearchBar.CheckResultOfSearchSKu(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario: user Can Change Currency successfully &amp#27;[90m# src/main/resources/Features/F05_ChangeCurrency.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m              &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Selects Euro From TopLeft List&amp#27;[0m     &amp#27;[90m# org.example.Steps.S05_ChangeCurrency.SelectCurrency()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProudcts must be changed to Euro&amp#27;[0m         &amp#27;[90m# org.example.Steps.S05_ChangeCurrency.CheckProductCurrency()&amp#27;[0m
+
+@smoke
+Scenario: user can select categories with subcategories &amp#27;[90m# src/main/resources/Features/F06_SelectCategory.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                     &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                             &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                      &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser hoover on random category&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S06_SelectCategory.UserHooverOnCategory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser select a subcategory&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S06_SelectCategory.UserSelectSub()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msubcategory opened successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S06_SelectCategory.CheckSelectResult()&amp#27;[0m
+
+@smoke
+Scenario: user can filter shoesCategory With Color &amp#27;[90m# src/main/resources/Features/F07_FilterWithColor.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser hoover on Apperal category&amp#27;[0m            &amp#27;[90m# org.example.Steps.S07_FilterWithColor.HooveronApperal()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser select shoes subcategory&amp#27;[0m               &amp#27;[90m# org.example.Steps.S07_FilterWithColor.ChooseShoes()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser Choose a specfic color&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S07_FilterWithColor.ApplyColorFilter()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mfilter Applied successfully&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S07_FilterWithColor.FilterAppliedSuccessfully()&amp#27;[0m
+
+@smoke
+Scenario Outline: user Select Any tag successfully &amp#27;[90m# src/main/resources/Features/F08_SelectTags.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Navigate to ant Category&amp#27;[0m              &amp#27;[90m# org.example.Steps.S08_SelectTags.NavigateToApperalCAtegory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Select &amp#27;[0m&amp#27;[32m&amp#27;[1mawesome&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S08_SelectTags.SelectAnyTag(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mawesome&amp#27;[0m&amp#27;[32m Selected Successfully&amp#27;[0m               &amp#27;[90m# org.example.Steps.S08_SelectTags.CheckTagResult(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Select Any tag successfully &amp#27;[90m# src/main/resources/Features/F08_SelectTags.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Navigate to ant Category&amp#27;[0m              &amp#27;[90m# org.example.Steps.S08_SelectTags.NavigateToApperalCAtegory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Select &amp#27;[0m&amp#27;[32m&amp#27;[1mcool&amp#27;[0m                            &amp#27;[90m# org.example.Steps.S08_SelectTags.SelectAnyTag(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mcool&amp#27;[0m&amp#27;[32m Selected Successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S08_SelectTags.CheckTagResult(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user Select Any tag successfully &amp#27;[90m# src/main/resources/Features/F08_SelectTags.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                        &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                 &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50959
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:17:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:17:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;adding Two Different Products to Shopping Cart&quot;, &quot;User Can Add Different Items To cart&quot;](17)" classname="org.example.TestRunner.Runner" time="15.713">
+    <system-out><![CDATA[SKU Image Product(s) Price Qty. Total Remove
+M8_HTC_5L HTC One M8 Android L 5.0 Lollipop €210.70 €210.70
+AD_C80_RS adidas Consortium Campus 80s Running Shoes
+Size: 9
+Color: Red
+Edit
+€23.70 €47.40
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:17:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:17:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;userAdd first item to wish list&quot;, &quot;user can add item to wish list successfully&quot;](18)" classname="org.example.TestRunner.Runner" time="10.812">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61510
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:18:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:18:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;adding one item to cart from wishlist page&quot;, &quot;Adding an item to cart from WishList page&quot;](19)" classname="org.example.TestRunner.Runner" time="11.31">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50513
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:18:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:18:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user adding items to compare list&quot;, &quot;user can add any items to compare&quot;](20)" classname="org.example.TestRunner.Runner" time="10.1">
+    <system-out><![CDATA[[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Navigate to ant Category&amp#27;[0m              &amp#27;[90m# org.example.Steps.S08_SelectTags.NavigateToApperalCAtegory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Select &amp#27;[0m&amp#27;[32m&amp#27;[1mnice&amp#27;[0m                            &amp#27;[90m# org.example.Steps.S08_SelectTags.SelectAnyTag(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mnice&amp#27;[0m&amp#27;[32m Selected Successfully&amp#27;[0m                  &amp#27;[90m# org.example.Steps.S08_SelectTags.CheckTagResult(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario: adding Two Different Products to Shopping Cart                     &amp#27;[90m# src/main/resources/Features/F09_AddItemsToShoppingCart.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                                          &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m                              &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                                  &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                                           &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mnavigate to cell phone page&amp#27;[0m                                          &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.NavigateToCellPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mchoose first item&amp#27;[0m                                                     &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.ChooseFirstItemToAdd()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on add to cart to add first item and check alert message&amp#27;[0m         &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.ClickOnAddToCart1()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnavigate to home page&amp#27;[0m                                                  &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.GobackToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcheck  first item was added&amp#27;[0m                                            &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.CheckCounterOfCartFirstTime()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnavigate to shoes page&amp#27;[0m                                                 &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.GotoShoesPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose Seccond item&amp#27;[0m                                                    &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.ChooseSecondItemToAdd()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSeclect size of second item&amp#27;[0m                                            &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.SeletcShoesSize()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect color of second item&amp#27;[0m                                            &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.SelectColorofShoes()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Add to cart button to Add second item and check alert message&amp#27;[0m &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.AddSecondItemToCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnavigate to home page again&amp#27;[0m                                            &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.BackToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcheck the second Item Was Added&amp#27;[0m                                        &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.CheckCounterofShoppingCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnavigate to shooping cart page&amp#27;[0m                                         &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.NavigateToCartPage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mfirst and second item was addedd successfully&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S09_AddItemsToShoppingCart.CheckShoppingCart()&amp#27;[0m
+
+@smoke
+Scenario: userAdd first item to wish list                &amp#27;[90m# src/main/resources/Features/F10_AddItemsToWishlist.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                      &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m          &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                              &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                       &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mgo to item page&amp#27;[0m                                  &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.GotoItemPAge()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on add to wish list and check alert message&amp#27;[0m &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.ClickOnWishListButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mgo back to home page&amp#27;[0m                               &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.NavigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcheck counter of wishlist&amp#27;[0m                          &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.CounterOfWishList()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mgo to Wish List Page&amp#27;[0m                               &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.GotoWishListPage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mItems Added successfully&amp#27;[0m                          &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.CheckTableOfWishLists()&amp#27;[0m
+
+@smoke
+Scenario: adding one item to cart from wishlist page     &amp#27;[90m# src/main/resources/Features/F11_AddingToShoppingCartFromWishListPage.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                      &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m          &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                              &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mgo to item page&amp#27;[0m                                  &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.GotoItemPAge()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on add to wish list and check alert message&amp#27;[0m &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.ClickOnWishListButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mgo back to home page&amp#27;[0m                               &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.NavigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mgo to Wish List Page&amp#27;[0m                               &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.GotoWishListPage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mItems Added successfully&amp#27;[0m                          &amp#27;[90m# org.example.Steps.S10_AddItemsToWishlist.CheckTableOfWishLists()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mfill check box&amp#27;[0m                                   &amp#27;[90m# org.example.Steps.S11_AddingToShoppingCartFromWishListPage.FillcheckBox()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mpress on button add to cart&amp#27;[0m                       &amp#27;[90m# org.example.Steps.S11_AddingToShoppingCartFromWishListPage.ConvertItemToCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mCheck navigation to cart page&amp#27;[0m                      &amp#27;[90m# org.example.Steps.S11_AddingToShoppingCartFromWishListPage.checkURL()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcheck item is added to cart successfully&amp#27;[0m          &amp#27;[90m# org.example.Steps.S11_AddingToShoppingCartFromWishListPage.itemAddedToCart()&amp#27;[0m
+
+@smoke
+Scenario: user adding items to compare list                 &amp#27;[90m# src/main/resources/Features/F12_AddingItemsToCompareList.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to Login page&amp#27;[0m                         &amp#27;[90m# org.example.Steps.S02_Login.NavToLogin()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtype "&amp#27;[0m&amp#27;[32m&amp#27;[1mabaashelmy@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123123&amp#27;[0m&amp#27;[32m"&amp#27;[0m             &amp#27;[90m# org.example.Steps.S02_Login.typeEmaiAndPass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                 &amp#27;[90m# org.example.Steps.S02_Login.clicklogButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                          &amp#27;[90m# org.example.Steps.S02_Login.UserLoggedIn()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser add First Item to compare list and check alert&amp#27;[0m &amp#27;[90m# org.exam]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64204
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:18:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:18:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user complete process to check out (Happy Scenario)&quot;, &quot;user complete His purchase successfully&quot;](21)" classname="org.example.TestRunner.Runner" time="22.214">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50350
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:18:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:18:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;opening Links (HappyScenario)&quot;, &quot;user can open any link&quot;](22)" classname="org.example.TestRunner.Runner" time="27.871">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 3:19:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 3:19:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="22" time="224.893">
+<testcase classname="user try to Register Successfully" name="user Registered. (Happy Scenario)" time="7.497">
+<system-out><![CDATA[Given user navigate to register page........................................passed
+When user fill personal data detailes.......................................passed
+And fill company details....................................................passed
+And fill password fields....................................................passed
+And click register button...................................................passed
+Then user Registerd Successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="user Login in (Happy Scenario)" time="5.727">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="user Login in (Negative Scenario)" time="5.346">
+<system-out><![CDATA[Given user navigate to Login page Negative..................................passed
+When typee "abaashelmmy@gmail.com" and "123122".............................passed
+And Click on Login button Negative..........................................passed
+Then user can not login.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can reset Password successfullly" name="Happy Scenario of reseting Password" time="4.496">
+<system-out><![CDATA[Given user Navigate to Login page...........................................passed
+When user Type Email........................................................passed
+And user Clik on forget password............................................passed
+And Fill Email Information..................................................passed
+And click on Recover........................................................passed
+Then intstruction of rest sent successfuly..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name)" time="5.536">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on book in Search Bar......................................passed
+When user Click on Search button............................................passed
+Then Search result must be appears book.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 2" time="6.942">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on laptop in Search Bar....................................passed
+When user Click on Search button............................................passed
+Then Search result must be appears laptop...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 3" time="5.3">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on nike in Search Bar......................................passed
+When user Click on Search button............................................passed
+Then Search result must be appears nike.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku)" time="7.21">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on SCI_FAITH in Search Bar.................................passed
+When user Click on Search button............................................passed
+Then Search result must be appearss SCI_FAITH...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 2" time="7.046">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on APPLE_CAM in Search Bar.................................passed
+When user Click on Search button............................................passed
+Then Search result must be appearss APPLE_CAM...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 3" time="7.126">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user types on SF_PRO_11 in Search Bar.................................passed
+When user Click on Search button............................................passed
+Then Search result must be appearss SF_PRO_11...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Currency" name="user Can Change Currency successfully" time="5.622">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user Selects Euro From TopLeft List...................................passed
+Then Proudcts must be changed to Euro.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can select any category successfully" name="user can select categories with subcategories" time="15.604">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user hoover on random category........................................passed
+When user select a subcategory..............................................passed
+Then subcategory opened successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Filtering categories with color" name="user can filter shoesCategory With Color" time="10.489">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user hoover on Apperal category.......................................passed
+When user select shoes subcategory..........................................passed
+And user Choose a specfic color.............................................passed
+Then filter Applied successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully" time="10.927">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user Navigate to ant Category.........................................passed
+When user Select awesome....................................................passed
+Then awesome Selected Successfully..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 2" time="10.961">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user Navigate to ant Category.........................................passed
+When user Select cool.......................................................passed
+Then cool Selected Successfully.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 3" time="10.868">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user Navigate to ant Category.........................................passed
+When user Select nice.......................................................passed
+Then nice Selected Successfully.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Can Add Different Items To cart" name="adding Two Different Products to Shopping Cart" time="15.713">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given navigate to cell phone page...........................................passed
+When choose first item......................................................passed
+And Click on add to cart to add first item and check alert message..........passed
+And navigate to home page...................................................passed
+And check  first item was added.............................................passed
+And navigate to shoes page..................................................passed
+And choose Seccond item.....................................................passed
+And Seclect size of second item.............................................passed
+And Select color of second item.............................................passed
+And click on Add to cart button to Add second item and check alert message..passed
+And navigate to home page again.............................................passed
+And check the second Item Was Added.........................................passed
+And navigate to shooping cart page..........................................passed
+Then first and second item was addedd successfully..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can add item to wish list successfully" name="userAdd first item to wish list" time="10.812">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given go to item page.......................................................passed
+When click on add to wish list and check alert message......................passed
+And go back to home page....................................................passed
+And check counter of wishlist...............................................passed
+And go to Wish List Page....................................................passed
+Then Items Added successfully...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding an item to cart from WishList page" name="adding one item to cart from wishlist page" time="11.31">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Given go to item page.......................................................passed
+When click on add to wish list and check alert message......................passed
+And go back to home page....................................................passed
+And go to Wish List Page....................................................passed
+Then Items Added successfully...............................................passed
+Given fill check box........................................................passed
+When press on button add to cart............................................passed
+And Check navigation to cart page...........................................passed
+Then check item is added to cart successfully...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can add any items to compare" name="user adding items to compare list" time="10.1">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+Then user logged in successfully............................................passed
+Given user add First Item to compare list and check alert...................passed
+When user add Second Item to compare list and check alert...................passed
+And user navigate to compare list...........................................passed
+Then items should be added successfully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user complete His purchase successfully" name="user complete process to check out (Happy Scenario)" time="22.214">
+<system-out><![CDATA[Given user navigate to Login page...........................................passed
+When type "abaashelmy@gmail.com" and "123123"...............................passed
+And Click on Login button...................................................passed
+And user logged in successfully.............................................passed
+And navigate to cell phone page.............................................passed
+And choose first item.......................................................passed
+And Click on add to cart to add first item and check alert message..........passed
+Then navigate to home page..................................................passed
+Given user Navigate To shoppping cart.......................................passed
+When user Choose Gift Graping...............................................passed
+And fill check box of agreement.............................................passed
+And press on Check Out......................................................passed
+And Fill remaining mandatory fields.........................................passed
+And Choose Shipping Method..................................................passed
+And Press continue2.........................................................passed
+And Choose Pyament Method...................................................passed
+And press continue3.........................................................passed
+And Check payment info url..................................................passed
+And press continue4.........................................................passed
+And Check url confirmation and items to be order............................passed
+And press confirm...........................................................passed
+Then order should crated successfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can open any link" name="opening Links (HappyScenario)" time="27.871">
+<system-out><![CDATA[Given user CLick on each Link...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
