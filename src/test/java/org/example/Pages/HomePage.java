@@ -54,7 +54,8 @@ public class HomePage {
     //sub category from Electronics
     public List<WebElement> ListOfElectronics() {
 
-        return Hooks.driver.findElements(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[2]/ul"));
+        WebElement listOfElect = Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[2]/ul"));
+        return listOfElect.findElements(By.tagName("li"));
 
     }
 
@@ -76,6 +77,24 @@ public class HomePage {
     public WebElement ApperalCategory() {
         return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[3]/a"));
     }
+
+    public List<WebElement> ApperalList()
+    {
+        WebElement appList = Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[3]/ul"));
+        return appList.findElements(By.tagName("li"));
+    }
+
+    public WebElement ComputerCategory()
+    {
+        return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/a"));
+    }
+
+    public List<WebElement> ComputerList() {
+        WebElement CompList = Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/ul"));
+        return CompList.findElements(By.tagName("li"));
+    }
+
+
 
     //shoesSupcategory
     public WebElement ShoesSupCategory() {
