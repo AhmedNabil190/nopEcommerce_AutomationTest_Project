@@ -25,15 +25,18 @@ public class S02_Login {
     public void NavToLogin() {
         home.navigateToLoginPage();
     }
+
     @When("^type \"(.*)\" and \"(.*)\"$")
-    public void typeEmaiAndPass(String user , String pass) {
+    public void typeEmaiAndPass(String user, String pass) {
         loginPage.typeEmailAndPass(user, pass);
 
     }
+
     @And("Click on Login button")
     public void clicklogButton() {
         loginPage.clickLogin();
     }
+
     @Then("user logged in successfully")
     public void UserLoggedIn() {
 
@@ -46,19 +49,22 @@ public class S02_Login {
         assertt.assertAll();
 
     }
+
     @Given("user navigate to Login page Negative")
-    public void NavToLoginVegative()
-    {
+    public void NavToLoginVegative() {
         home.navigateToLoginPage();
     }
+
     @When("^typee \"(.*)\" and \"(.*)\"$")
-    public void typeEmaiAndPassNeg(String user , String pass) {
+    public void typeEmaiAndPassNeg(String user, String pass) {
         loginPage.typeEmailAndPass(user, pass);
     }
+
     @And("Click on Login button Negative")
     public void clicklogButtonNeg() {
         loginPage.clickLogin();
     }
+
     @Then("user can not login")
     public void UserCannotLoggedIn() {
         WebElement ErrorText = Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[1]"));
@@ -66,16 +72,12 @@ public class S02_Login {
         assertt.assertTrue
                 (ErrorText.getText().contains("Login was unsuccessful. Please correct the errors and try again."));
 
-
-        assertt.assertFalse(ErrorText.getCssValue("color").contains("#e4434b"));
-
-
+        assertt.assertTrue(ErrorText.getCssValue("color").contains("rgba(228, 67, 75, 1)"));
 
         assertt.assertAll();
 
 
     }
-
 
 
 }

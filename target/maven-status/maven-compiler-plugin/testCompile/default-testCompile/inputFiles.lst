@@ -6,6 +6,8 @@ D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pa
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S14_FollowUs.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\HomePage.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\ShoppingCartPage.java
+D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S15_HomeSliders.java
+D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S06_HoverCategories.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S13_CreateSuccessfulOrder.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\RedshoesPage.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\SubCategoryPage.java
@@ -23,6 +25,5 @@ D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\St
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\ResetPasswordPage.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S10_AddItemsToWishlist.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Pages\WishListPage.java
-D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S06_SelectCategory.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S09_AddItemsToShoppingCart.java
 D:\Udacity\FinalNopEcommerceProject\demonopcommerce\src\test\java\org\example\Steps\S05_ChangeCurrency.java

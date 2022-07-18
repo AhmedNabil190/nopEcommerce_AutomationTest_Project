@@ -63,6 +63,7 @@ public class S01_Register {
 
         assertt.assertEquals("Your registration completed", regText.getText());
 
+        System.out.println(regText.getCssValue("background-color"));
         assertt.assertFalse(regText.getCssValue("background-color").equals("(255,255,255,1)"));
 
         assertt.assertTrue(continueButton.isDisplayed(), "error inbutton");

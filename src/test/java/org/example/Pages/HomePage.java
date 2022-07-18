@@ -170,4 +170,23 @@ public class HomePage {
     WebElement networks = Hooks.driver.findElement(By.className("networks"));
     return networks.findElements(By.tagName("li"));
     }
+
+    public WebElement SuccessMessageContent()
+    {
+        return Hooks.driver.findElement(By.className("content"));
+    }
+
+    public WebElement SuccessMessageBar()
+    {
+        return Hooks.driver.findElement(By.cssSelector("div[class=\"bar-notification success\"]"));
+    }
+
+    public WebElement NokiaSlider()
+    {
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"nivo-slider\"]/a[1]"));
+    }
+    public WebElement IphoneSlider()
+    {
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"nivo-slider\"]/a[2]"));
+    }
 }

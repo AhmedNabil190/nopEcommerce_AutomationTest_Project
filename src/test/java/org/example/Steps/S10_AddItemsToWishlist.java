@@ -8,8 +8,14 @@ import org.example.Pages.WishListPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.Browser;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
+
+import java.time.Duration;
 
 public class S10_AddItemsToWishlist {
 
@@ -27,19 +33,29 @@ public class S10_AddItemsToWishlist {
     public void ClickOnWishListButton() throws InterruptedException {
         homee.WishListButton().click();
         Thread.sleep(2000);
-        assertt.assertTrue(Hooks.driver.findElement(By.className("content")).isDisplayed());
-        assertt.assertTrue(Hooks.driver.findElement(By.className("content")).getText().contains("The product has been added to your "));
+        assertt.assertTrue(homee.SuccessMessageContent().isDisplayed());
+        assertt.assertTrue(homee.SuccessMessageContent().getText().contains("The product has been added to your "));
+        assertt.assertTrue(homee.SuccessMessageBar().getCssValue("background-color").equals("rgba(75, 176, 122, 1)"));
         assertt.assertAll();
+
+        WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.invisibilityOf(homee.SuccessMessageContent()));
+
+
     }
 
-    @And("go back to home page")
+    @Then("go back to home page")
     public void NavigateToHomePage() {
         action.click(homee.LogoHomePage()).build().perform();
     }
 
     @And("check counter of wishlist")
     public void CounterOfWishList() {
-        Assert.assertTrue(homee.WishListQnty().getText().contains("2"));
+        System.out.println(homee.WishListQnty().getText());
+        String valueofWishList =  homee.WishListQnty().getText();
+        valueofWishList = valueofWishList.replaceAll("[^0-9]" , "");
+        Assert.assertTrue(Integer.parseInt(valueofWishList) > 0 );
+
     }
 
     @And("go to Wish List Page")

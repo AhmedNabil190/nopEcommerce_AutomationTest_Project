@@ -1,12 +1,13 @@
 org\example\Pages\ShoppingCartPage.class
 org\example\Steps\S05_ChangeCurrency.class
 org\example\Steps\S12_AddingItemsToCompareList.class
-org\example\Steps\S06_SelectCategory.class
 org\example\Steps\S01_Register.class
 org\example\Pages\ResetPasswordPage.class
 org\example\Steps\S14_FollowUs.class
 org\example\Pages\HtcPhonePage.class
+org\example\Steps\S15_HomeSliders.class
 org\example\Steps\S10_AddItemsToWishlist.class
+org\example\Steps\S06_HoverCategories.class
 org\example\Pages\ApperalCategoryPage.class
 org\example\Steps\Hooks.class
 org\example\Steps\S07_FilterWithColor.class
