@@ -4,13 +4,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.Pages.HomePage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 
-public class S06_SelectCategory {
+public class S06_HoverCategories {
 
     HomePage homee = new HomePage();
     Actions action = new Actions(Hooks.driver);
