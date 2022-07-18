@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="337.506">
-<testcase classname="user try to Register Successfully" name="user Registered. (Happy Scenario)" time="11.379">
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="27" time="300.473">
+<testcase classname="user try to Register Successfully" name="user Registered. (Happy Scenario)" time="6.271">
 <system-out><![CDATA[Given user navigate to register page........................................passed
 When user fill personal data detailes.......................................passed
 And fill company details....................................................passed
@@ -9,21 +9,21 @@ And click register button...................................................pass
 Then user Registerd Successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Functionality" name="user Login in (Happy Scenario)" time="4.881">
+<testcase classname="Login Functionality" name="user Login in (Happy Scenario)" time="4.718">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
 Then user logged in successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Functionality" name="user Login in (Negative Scenario)" time="5.082">
+<testcase classname="Login Functionality" name="user Login in (Negative Scenario)" time="4.171">
 <system-out><![CDATA[Given user navigate to Login page Negative..................................passed
 When typee "abaashelmmy@gmail.com" and "123122".............................passed
 And Click on Login button Negative..........................................passed
 Then user can not login.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User can reset Password successfullly" name="Happy Scenario of reseting Password" time="6.348">
+<testcase classname="User can reset Password successfullly" name="Happy Scenario of reseting Password" time="4.89">
 <system-out><![CDATA[Given user Navigate to Login page...........................................passed
 When user Type Email........................................................passed
 And user Clik on forget password............................................passed
@@ -32,7 +32,7 @@ And click on Recover........................................................pass
 Then intstruction of rest sent successfuly..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name)" time="11.391">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name)" time="5.619">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -42,7 +42,7 @@ When user Click on Search button............................................pass
 Then Search result must be appears book.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 2" time="8.77">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 2" time="5.423">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -52,7 +52,7 @@ When user Click on Search button............................................pass
 Then Search result must be appears laptop...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 3" time="6.699">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (product Name) 3" time="5.605">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -62,7 +62,7 @@ When user Click on Search button............................................pass
 Then Search result must be appears nike.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku)" time="13.303">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku)" time="8.969">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -72,7 +72,7 @@ When user Click on Search button............................................pass
 Then Search result must be appearss SCI_FAITH...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 2" time="8.946">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 2" time="7.472">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -82,7 +82,7 @@ When user Click on Search button............................................pass
 Then Search result must be appearss APPLE_CAM...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 3" time="8.609">
+<testcase classname="Check that user can search for any proudct" name="user Search for An (Sku) 3" time="7.939">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -92,7 +92,7 @@ When user Click on Search button............................................pass
 Then Search result must be appearss SF_PRO_11...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Change Currency" name="user Can Change Currency successfully" time="6.386">
+<testcase classname="Change Currency" name="user Can Change Currency successfully" time="6.089">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -101,7 +101,7 @@ Given user Selects Euro From TopLeft List...................................pass
 Then Proudcts must be changed to Euro.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can select any category successfully" name="user can select categories with subcategories" time="10.927">
+<testcase classname="user can select any category successfully" name="user can select categories with subcategories" time="12.334">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -111,7 +111,7 @@ When user select a subcategory..............................................pass
 Then subcategory opened successfully........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can select any category successfully" name="user can select categories with subcategories2" time="14.911">
+<testcase classname="user can select any category successfully" name="user can select categories with subcategories2" time="10.102">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -121,7 +121,7 @@ When user select a subcategory2.............................................pass
 Then subcategory2 opened successfully.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can select any category successfully" name="user can select categories with subcategories3" time="13.718">
+<testcase classname="user can select any category successfully" name="user can select categories with subcategories3" time="10.764">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -131,7 +131,7 @@ When user select a subcategory3.............................................pass
 Then subcategory3 opened successfully.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Filtering categories with color" name="user can filter shoesCategory With Color" time="13.362">
+<testcase classname="Filtering categories with color" name="user can filter shoesCategory With Color" time="12.896">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -142,7 +142,7 @@ And user Choose a specfic color.............................................pass
 Then filter Applied successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully" time="13.313">
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully" time="12.989">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -152,7 +152,7 @@ When user Select awesome....................................................pass
 Then awesome Selected Successfully..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 2" time="14.349">
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 2" time="11.573">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -162,17 +162,26 @@ When user Select cool.......................................................pass
 Then cool Selected Successfully.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 3" time="18.608">
-<system-out><![CDATA[Given user navigate to Login page...........................................passed
+<testcase classname="user can selectAny tags in Category" name="user Select Any tag successfully 3" time="13.134">
+<failure message="The following asserts failed:&#10;&#9;expected [true] but found [false],&#10;&#9;expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
 Then user logged in successfully............................................passed
 Given user Navigate to ant Category.........................................passed
 When user Select nice.......................................................passed
-Then nice Selected Successfully.............................................passed
-]]></system-out>
+Then nice Selected Successfully.............................................failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at org.example.Steps.S08_SelectTags.CheckTagResult(S08_SelectTags.java:56)
+	at ✽.nice Selected Successfully(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F08_SelectTags.feature:13)
+]]></failure>
 </testcase>
-<testcase classname="User Can Add Different Items To cart" name="adding Two Different Products to Shopping Cart" time="25.652">
+<testcase classname="User Can Add Different Items To cart" name="adding Two Different Products to Shopping Cart" time="23.618">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -193,7 +202,7 @@ And navigate to shooping cart page..........................................pass
 Then first and second item was addedd successfully..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can add item to wish list successfully" name="user Add first item to wish list and check alert message" time="13.301">
+<testcase classname="user can add item to wish list successfully" name="user Add first item to wish list and check alert message" time="12.085">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -203,7 +212,7 @@ When click on add to wish list and check alert message......................pass
 Then go back to home page...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can add item to wish list successfully" name="user Add item to wish list and check Counter" time="15.416">
+<testcase classname="user can add item to wish list successfully" name="user Add item to wish list and check Counter" time="14.638">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -216,7 +225,7 @@ And go to Wish List Page....................................................pass
 Then Items Added successfully...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Adding an item to cart from WishList page" name="adding one item to cart from wishlist page" time="19.21">
+<testcase classname="Adding an item to cart from WishList page" name="adding one item to cart from wishlist page" time="14.63">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -231,7 +240,7 @@ And Check navigation to cart page...........................................pass
 Then check item is added to cart successfully...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user can add any items to compare" name="user adding items to compare list" time="13.835">
+<testcase classname="user can add any items to compare" name="user adding items to compare list" time="9.904">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
@@ -242,8 +251,8 @@ And user navigate to compare list...........................................pass
 Then items should be added successfully.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user complete His purchase successfully" name="user complete process to check out (Happy Scenario)" time="24.381">
-<failure message="The following asserts failed:&#10;&#9;expected [true] but found [false],&#10;&#9;expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user navigate to Login page...........................................passed
+<testcase classname="user complete His purchase successfully" name="user complete process to check out (Happy Scenario)" time="21.024">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user navigate to Login page...........................................passed
 When type "abaashelmy@gmail.com" and "123123"...............................passed
 And Click on Login button...................................................passed
 And user logged in successfully.............................................passed
@@ -260,24 +269,24 @@ And Choose Shipping Method..................................................pass
 And Press continue2.........................................................passed
 And Choose Pyament Method...................................................passed
 And press continue3.........................................................passed
-And Check payment info url..................................................passed
-And press continue4.........................................................passed
-And Check url confirmation and items to be order............................passed
-And press confirm...........................................................passed
-Then order should crated successfully.......................................failed
+And Check payment info url..................................................failed
+And press continue4.........................................................skipped
+And Check url confirmation and items to be order............................skipped
+And press confirm...........................................................skipped
+Then order should crated successfully.......................................skipped
 
 StackTrace:
-java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false],
-	expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at org.example.Steps.S13_CreateSuccessfulOrder.CheckCOmpleteOrder(S13_CreateSuccessfulOrder.java:127)
-	at ✽.order should crated successfully(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F13_CreateSuccessfulOrder.feature:27)
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.Steps.S13_CreateSuccessfulOrder.CheckPAyinfo(S13_CreateSuccessfulOrder.java:89)
+	at ✽.Check payment info url(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F13_CreateSuccessfulOrder.feature:23)
 ]]></failure>
 </testcase>
-<testcase classname="user can open any link" name="opening Links (HappyScenario)" time="34.373">
-<failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=103.0.5060.114)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-7D1MDG2', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1276a64e6ae9e523c98ff526a39c1a4f, getElementText {id=8e16bd9f-274d-4e8f-8847-dd5e48a4409e}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52963/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[[[ChromeDriver: chrome on WINDOWS (1276a64e6ae9e523c98ff526a39c1a4f)] -&gt; class name: networks]] -&gt; tag name: li]&#10;Session ID: 1276a64e6ae9e523c98ff526a39c1a4f" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given user CLick on "https://www.facebook.com/nopCommerce" Link.............passed
+<testcase classname="user can open any link" name="opening Links (HappyScenario)" time="33.759">
+<failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=103.0.5060.114)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-7D1MDG2', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c931277151f66cb55ab336a9929d7ce4, getElementText {id=d1d34f55-4767-4fa1-a238-0899fbbaa65b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56701/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[[[ChromeDriver: chrome on WINDOWS (c931277151f66cb55ab336a9929d7ce4)] -&gt; class name: networks]] -&gt; tag name: li]&#10;Session ID: c931277151f66cb55ab336a9929d7ce4" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given user CLick on "https://www.facebook.com/nopCommerce" Link.............passed
 When user CLick on "https://twitter.com/nopCommerce" Link2..................passed
 And user CLick on "https://www.youtube.com/user/nopCommerce" Link3..........passed
 Then user CLick on "https://demo.nopcommerce.com/new-online-store-is-open" Link4.failed
@@ -289,10 +298,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-7D1MDG2', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1276a64e6ae9e523c98ff526a39c1a4f, getElementText {id=8e16bd9f-274d-4e8f-8847-dd5e48a4409e}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52963/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on WINDOWS (1276a64e6ae9e523c98ff526a39c1a4f)] -> class name: networks]] -> tag name: li]
-Session ID: 1276a64e6ae9e523c98ff526a39c1a4f
+Command: [c931277151f66cb55ab336a9929d7ce4, getElementText {id=d1d34f55-4767-4fa1-a238-0899fbbaa65b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56701/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on WINDOWS (c931277151f66cb55ab336a9929d7ce4)] -> class name: networks]] -> tag name: li]
+Session ID: c931277151f66cb55ab336a9929d7ce4
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -306,8 +315,41 @@ Session ID: 1276a64e6ae9e523c98ff526a39c1a4f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
-	at org.example.Steps.S14_FollowUs.OpenRssLink(S14_FollowUs.java:87)
+	at org.example.Steps.S14_FollowUs.OpenRssLink(S14_FollowUs.java:90)
 	at ✽.user CLick on "https://demo.nopcommerce.com/new-online-store-is-open" Link4(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F14_FollowUs.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Home Sliders Redirect to Specific pages" name="Navigate to Pages of first Sliders" time="6.412">
+<failure message="expected [https://demo.nopcommerce.com/] but found [https://demo.nopcommerce.com/nokia-lumia-1020]" type="java.lang.AssertionError"><![CDATA[Given navigate to first slider Url..........................................passed
+Then check the result of first url "https://demo.nopcommerce.com/nokia-lumia-1020".failed
+
+StackTrace:
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/] but found [https://demo.nopcommerce.com/nokia-lumia-1020]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at org.example.Steps.S15_HomeSliders.CheckFirstUrl(S15_HomeSliders.java:29)
+	at ✽.check the result of first url "https://demo.nopcommerce.com/nokia-lumia-1020"(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F15_HomeSliders.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Home Sliders Redirect to Specific pages" name="Navigate to Page of Second Sliders" time="13.135">
+<failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d4a81aa3d1728651a708a09f61c39e90)] -&gt; xpath: //*[@id=&quot;nivo-slider&quot;]/a[2]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-7D1MDG2', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56814}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56814/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d4a81aa3d1728651a708a09f61c39e90" type="org.openqa.selenium.TimeoutException"><![CDATA[Given navigate to second url................................................failed
+Then check the result of second url "https://demo.nopcommerce.com/iphone-6".skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d4a81aa3d1728651a708a09f61c39e90)] -> xpath: //*[@id="nivo-slider"]/a[2]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-7D1MDG2', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AHMEDN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56814}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56814/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4a81aa3d1728651a708a09f61c39e90
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.Steps.S15_HomeSliders.ClickOnSecondSlider(S15_HomeSliders.java:36)
+	at ✽.navigate to second url(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F15_HomeSliders.feature:10)
 ]]></failure>
 </testcase>
 </testsuite>

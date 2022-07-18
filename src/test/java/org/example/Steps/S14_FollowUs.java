@@ -28,6 +28,7 @@ public class S14_FollowUs {
                     if (Tilte.contains("NopCommerce - Home")) {
                         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains(URLF));
                         Hooks.driver.close();
+
                     }
                 }
                 Thread.sleep(5000);
@@ -50,6 +51,7 @@ public class S14_FollowUs {
                         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains(URLT));
                         Thread.sleep(3000);
                         Hooks.driver.close();
+
                     }
                     // Thread.sleep(5000);
                     Hooks.driver.switchTo().window(CurrentWindow2);
@@ -72,6 +74,7 @@ public class S14_FollowUs {
                         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains(URLY));
                         Thread.sleep(3000);
                         Hooks.driver.close();
+
                     }
                     // Thread.sleep(5000);
                     Hooks.driver.switchTo().window(CurrentWindow3);
@@ -93,6 +96,7 @@ public class S14_FollowUs {
                         Assert.assertEquals(URLR, Hooks.driver.getCurrentUrl());
                         Thread.sleep(3000);
                         Hooks.driver.close();
+
                     }
                      Thread.sleep(5000);
                     Hooks.driver.switchTo().window(CurrentWindow4);

@@ -1,3 +1,4 @@
+@smoke
 Feature: Home Sliders Redirect to Specific pages
 
   Scenario: Navigate to Pages of first Sliders

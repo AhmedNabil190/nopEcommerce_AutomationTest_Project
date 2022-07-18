@@ -1,14 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: org.example.TestRunner.Runner
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 338.573 s <<< FAILURE! - in org.example.TestRunner.Runner
-org.example.TestRunner.Runner.runScenario["user complete process to check out (Happy Scenario)", "user complete His purchase successfully"](24)  Time elapsed: 24.396 s  <<< FAILURE!
+Tests run: 25, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 301.257 s <<< FAILURE! - in org.example.TestRunner.Runner
+org.example.TestRunner.Runner.runScenario["user Select Any tag successfully", "user can selectAny tags in Category"](18)  Time elapsed: 13.143 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [true] but found [false],
 	expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at org.example.Steps.S13_CreateSuccessfulOrder.CheckCOmpleteOrder(S13_CreateSuccessfulOrder.java:127)
-	at ✽.order should crated successfully(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F13_CreateSuccessfulOrder.feature:27)
+	at org.example.Steps.S08_SelectTags.CheckTagResult(S08_SelectTags.java:56)
+	at ✽.nice Selected Successfully(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F08_SelectTags.feature:13)
+
+org.example.TestRunner.Runner.runScenario["user complete process to check out (Happy Scenario)", "user complete His purchase successfully"](24)  Time elapsed: 21.032 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.Steps.S13_CreateSuccessfulOrder.CheckPAyinfo(S13_CreateSuccessfulOrder.java:89)
+	at ✽.Check payment info url(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F13_CreateSuccessfulOrder.feature:23)
+
+org.example.TestRunner.Runner.runScenario["Navigate to Pages of first Sliders", "Home Sliders Redirect to Specific pages"](26)  Time elapsed: 6.399 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/] but found [https://demo.nopcommerce.com/nokia-lumia-1020]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at org.example.Steps.S15_HomeSliders.CheckFirstUrl(S15_HomeSliders.java:29)
+	at ✽.check the result of first url "https://demo.nopcommerce.com/nokia-lumia-1020"(file:///D:/Udacity/FinalNopEcommerceProject/demonopcommerce/src/main/resources/Features/F15_HomeSliders.feature:6)
 

@@ -1,2 +1,4 @@
+file:src/main/resources/Features/F08_SelectTags.feature:18
 file:src/main/resources/Features/F13_CreateSuccessfulOrder.feature:13
 file:src/main/resources/Features/F14_FollowUs.feature:3
+file:src/main/resources/Features/F15_HomeSliders.feature:4:9
